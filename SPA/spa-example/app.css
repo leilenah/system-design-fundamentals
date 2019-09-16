@@ -1,0 +1,34 @@
+/**
+ * Inspo: https://gist.github.com/prof3ssorSt3v3/17d0b0d680766a362eba4cc6a158d9fc
+ */
+
+html, body, main {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  padding: 40px;
+}
+
+.page {
+  display: none;
+}
+
+.page--active {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page--home {
+  background-color: red;
+}
+
+.page--list {
+  background-color: pink;
+}
+
+.page--detail {
+  background-color: yellowgreen;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!-- Inspo: https://gist.github.com/prof3ssorSt3v3/fbef6d6d6cb1ff9ffb0dea6bdc3d94c3 -->
+
+<html lang="en">
+  <head>
+    <!-- Meta Data -->
+    <title>Single Page Application</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="app.css">
+  </head>
+
+  <body>
+    <a href="https://www.youtube.com/watch?v=wlVmmsMD28w" target="_blank" rel="noopener noreferrer">Click here to view the video tutorial</a>
+
+    <main class="spa-content">
+      <section id="home" class="page page--home page--active">
+        <h1 class="title">Home Page</h1>
+
+          <!-- Link list component (block) -->
+          <ol class="link-list">
+            <li class="link-list__list-item">
+              <a class="link-list__link" href="#" data-target="home">Home</a>
+            </li>
+            <li class="link-list__list-item">
+              <a class="link-list__link" href="#" data-target="list">List</a>
+            </li>
+            <li class="link-list__list-item">
+              <a class="link-list__link" href="#" data-target="detail">Detail</a>
+            </li>
+          </ol>
+      </section>
+
+      <section id="list" class="page page--list">
+          <h1 class="title">List Page</h1>
+
+          <!-- Link list component (block) -->
+          <ol class="link-list">
+              <li class="link-list__list-item">
+                <a class="link-list__link" href="#" data-target="home">Home</a>
+              </li>
+              <li class="link-list__list-item">
+                <a class="link-list__link" href="#" data-target="list">List</a>
+              </li>
+              <li class="link-list__list-item">
+                <a class="link-list__link" href="#" data-target="detail">Detail</a>
+              </li>
+            </ol>
+      </section>
+
+      <section id="detail" class="page page--detail">
+          <h1 class="title">Detail Page</h1>
+
+          <!-- Link list component (block) -->
+          <ol class="link-list">
+              <li class="link-list__list-item">
+                <a class="link-list__link" href="#" data-target="home">Home</a>
+              </li>
+              <li class="link-list__list-item">
+                <a class="link-list__link" href="#" data-target="list">List</a>
+              </li>
+              <li class="link-list__list-item">
+                <a class="link-list__link" href="#" data-target="detail">Detail</a>
+              </li>
+            </ol>
+      </section>
+    </main>
+  </body>
+</html>
